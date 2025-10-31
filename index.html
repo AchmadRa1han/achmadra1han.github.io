@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Rangkuman STQA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Portofolio Rangkuman STQA</h1>
+        <p>Ringkasan Materi 1 - 8</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#materi1">Materi 1: Strategi</a></li>
+            <li><a href="#materi2">Materi 2: UI/UX</a></li>
+            <li><a href="#materi3">Materi 3: Test Plan</a></li>
+            <li><a href="#materi4">Materi 4: Test Case</a></li>
+            <li><a href="#materi5">Materi 5: Unit Test</a></li>
+            <li><a href="#materi6">Materi 6: API Test</a></li>
+            <li><a href="#materi7">Materi 7: Selenium</a></li>
+            <li><a href="#materi8">Materi 8: Cypress</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="materi1">
+            <h2>Materi 1: Strategi Testing</h2>
+            <p>
+                Software testing adalah proses mengevaluasi perangkat lunak untuk menemukan cacat (bug) dan memastikan produk bekerja sesuai kebutuhan. Tujuannya adalah untuk menjamin kualitas, keamanan, dan meningkatkan pengalaman pengguna. Proses ini mengikuti siklus hidup (STLC) yang terstruktur, mulai dari <strong>Test Planning</strong> (perencanaan), <strong>Test Design</strong> (perancangan kasus uji), <strong>Test Execution</strong> (pelaksanaan), hingga <strong>Pelaporan</strong>. Testing dapat diklasifikasikan berdasarkan struktur (<strong>Black-box</strong>, <strong>White-box</strong>) atau berdasarkan level (<strong>Unit</strong>, <strong>Integration</strong>, <strong>System</strong>, <strong>Acceptance</strong>).
+            </p>
+            <footer>Sumber: Kelompok 1</footer>
+        </section>
+
+        <section id="materi2">
+            <h2>Materi 2: UI/UX Testing</h2>
+            <p>
+                Perbedaan mendasar antara UI dan UX testing adalah fokusnya. <strong>UI (User Interface) Testing</strong> berfokus pada tampilan visual aplikasi, seperti warna, ikon, layout, dan konsistensi. Tujuannya adalah memastikan tampilan benar dan responsif di berbagai perangkat. <strong>UX (User Experience) Testing</strong> berfokus pada pengalaman pengguna secara keseluruhan, menguji apakah alur kerja aplikasi mudah digunakan, logis, dan efisien. Fokus utama UX testing meliputi <strong>Usability</strong> (kegunaan), <strong>Aksesibilitas</strong> (untuk penyandang disabilitas), dan <strong>Alur Kerja</strong> (workflow) pengguna.
+            </p>
+            <footer>Sumber: Kelompok 2</footer>
+        </section>
+
+        <section id="materi3">
+            <h2>Materi 3: Testing Plan</h2>
+            <p>
+                <strong>Testing Plan</strong> adalah dokumen formal yang menjadi panduan dan menjelaskan bagaimana proses pengujian akan dilakukan. Dokumen ini mencakup <strong>ruang lingkup</strong> pengujian, <strong>strategi</strong> yang dipakai, <strong>sumber daya</strong> (tim, alat), dan <strong>jadwal</strong>. Komponen penting dalam Test Plan meliputi: <strong>Test Items</strong> (apa yang akan diuji), <strong>Features to be Tested</strong> (fitur yang diuji), <strong>Features not to be Tested</strong> (fitur yang tidak diuji), <strong>Approach</strong> (pendekatan, misal manual atau otomatis), <strong>Item Pass/Fail Criteria</strong> (kriteria lulus/gagal), dan <strong>Approvals</strong> (persetujuan).
+            </p>
+            <footer>Sumber: Kelompok 3</footer>
+        </section>
+
+        <section id="materi4">
+            <h2>Materi 4: Test Scenario, Test Case, & Bug Report</h2>
+            <p>
+                Ini adalah tiga elemen penting dalam dokumentasi pengujian. <strong>Test Scenario</strong> adalah gambaran umum tentang *apa* yang harus diuji (misal: "Periksa fungsi login"). <strong>Test Case</strong> adalah langkah-langkah detail tentang *bagaimana* melakukan pengujian, yang mencakup ID, precondition, test steps, test data, dan expected result. Jika pengujian gagal (Actual Result tidak sama dengan Expected Result), maka dibuatlah <strong>Bug Report</strong>. Ini adalah laporan formal kesalahan yang berisi detail masalah, langkah-langkah untuk mereproduksi bug (steps to reproduce), serta tingkat <strong>Severity</strong> (dampak bug) dan <strong>Priority</strong> (urgensi perbaikan).
+            </p>
+            <footer>Sumber: Kelompok 4</footer>
+        </section>
+
+        <section id="materi5">
+            <h2>Materi 5: Unit Testing</h2>
+            <p>
+                <strong>Unit Testing</strong> adalah pengujian yang berfokus pada unit-unit terkecil dan terisolasi dalam sebuah kode, seperti function atau method. Ini adalah level pengujian paling awal dan biasanya dilakukan oleh developer. Tujuannya adalah untuk mendeteksi bug sedini mungkin, yang pada akhirnya menghemat waktu dan biaya. Pola dasar yang populer digunakan adalah <strong>AAA (Arrange, Act, Assert)</strong>: <strong>Arrange</strong> (menyiapkan kondisi awal), <strong>Act</strong> (menjalankan fungsi yang diuji), dan <strong>Assert</strong> (memverifikasi hasilnya). Framework yang umum digunakan adalah JUnit (Java), Pytest (Python), dan Jest (JavaScript).
+            </p>
+            <footer>Sumber: Kelompok 5</footer>
+        </section>
+
+        <section id="materi6">
+            <h2>Materi 6: API Testing</h2>
+            <p>
+                <strong>API (Application Programming Interface) Testing</strong> adalah proses pengujian yang dilakukan langsung pada lapisan API untuk memastikan fungsionalitas, keandalan, keamanan, dan performa. Pengujian ini penting untuk memvalidasi logika bisnis dan memastikan komunikasi antar sistem berjalan lancar. Proses dasarnya adalah mengirimkan <strong>Request</strong> (permintaan) ke sebuah URL endpoint menggunakan method (seperti GET, POST, PUT), kemudian memvalidasi <strong>Response</strong> (balasan) dari server, terutama <strong>Status Code</strong> (misal 200 OK atau 404 Not Found) dan data yang dikembalikan. Tools yang sangat populer untuk API testing adalah <strong>Postman</strong> dan <strong>SoapUI</strong>.
+            </p>
+            <footer>Sumber: Kelompok 6</footer>
+        </section>
+
+        <section id="materi7">
+            <h2>Materi 7: Pengantar Selenium</h2>
+            <p>
+                <strong>Selenium</strong> adalah sebuah framework *open-source* yang digunakan untuk <strong>otomatisasi browser</strong>. Selenium paling sering digunakan untuk menguji aplikasi web secara otomatis. Komponen intinya adalah <strong>Selenium WebDriver</strong>, yang berfungsi sebagai penghubung (jembatan) antara kode skrip pengujian (yang bisa ditulis dalam bahasa Java, Python, C#, dll.) dengan browser (seperti Chrome, Firefox, Edge). Skrip ini dapat memberi perintah pada browser untuk melakukan aksi pengguna, seperti membuka URL, mengklik tombol, mengisi form, dan memvalidasi teks di halaman.
+            </p>
+            <footer>Sumber: Kelompok 7</footer>
+        </section>
+
+        <section id="materi8">
+            <h2>Materi 8: Pengantar Cypress</h2>
+            <p>
+                <strong>Cypress</strong> adalah framework end-to-end testing modern yang khusus dirancang untuk menguji aplikasi web (terutama yang dibangun dengan React, Vue, Angular, dll.). Berbeda dari Selenium, Cypress memiliki beberapa keunggulan unik, seperti <strong>Test Runner interaktif</strong> yang memungkinkan kita melihat eksekusi tes secara visual dan real-time. Fitur unggulan lainnya adalah <strong>"Time Travel"</strong> (melihat snapshot dari setiap langkah tes untuk debugging) dan <strong>Automatic Waits</strong> (Cypress otomatis menunggu elemen muncul sebelum berinteraksi, sehingga tes lebih stabil). Perintahnya juga intuitif, seperti `cy.visit()` untuk membuka URL dan `cy.get()` untuk memilih elemen.
+            </p>
+            <footer>Sumber: Kelompok 8</footer>
+        </section>
+    </main>
+
+    <footer>
+        <p>Portofolio Dibuat oleh Achmad Raihan | <a href="#top">Kembali ke Atas</a></p>
+    </footer>
+
+</body>
+</html>
